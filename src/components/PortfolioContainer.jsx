@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume'; // Import the Resume component
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -19,7 +20,12 @@ export default function PortfolioContainer() {
     if (currentPage === 'Blog') {
       return <Blog />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') { // Add a condition for the "Resume" page
+      return <Resume />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
