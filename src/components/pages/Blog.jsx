@@ -4,27 +4,27 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 const projects = [
   {
     title: 'Task Master',
-    imageSrc: 'public/assets/taskmaster.png',
+    imageSrc: 'assets/taskmaster.png',
     link: 'https://taskmaster-grp3-ef54a6c054dc.herokuapp.com/',
   },
   {
     title: 'Sports Trivia',
-    imageSrc: 'public/assets/sportstrivia.png',
+    imageSrc: 'assets/sportstrivia.png',
     link: 'https://ambitiousflo.github.io/Sports-Trivia/',
   },
   {
     title: 'Weather Dashboard',
-    imageSrc: 'public/assets/weatherdashboard.png',
+    imageSrc: 'assets/weatherdashboard.png',
     link: 'https://ambitiousflo.github.io/WeatherDashboard/',
   },
   {
     title: 'Project 4',
-    imageSrc: 'public/assets/comingsoon.png',
+    imageSrc: 'assets/comingsoon.png',
     link: 'https://example.com/project4',
   },
   {
     title: 'Project 5',
-    imageSrc: 'public/assets/comingsoon.png',
+    imageSrc: 'assets/comingsoon.png',
     link: 'https://example.com/project5',
   },
 ];
