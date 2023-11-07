@@ -3,16 +3,7 @@ export default function Home() {
     <div>
       <h1>Home Page</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      Hello, I'm Christian Flores, a Full Stack Developer currently exploring the United States with my wife and our 1 year old son. I have had the honor of serving in the U.S. Air Force for 6 years, and I've also worked as an IT Support Specialist for the United States District Courts for 3 years. Being a developer is not just rewarding in terms of creating innovative solutions, but it's also amazing how our code can impact the world, one line at a time.
       </p>
     </div>
   );
