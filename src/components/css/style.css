@@ -1,0 +1,26 @@
+.resume-card {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Background color for the card */
+    border-radius: 10px; /* Rounded corners for the card */
+  }
+  
+
+  .custom-card {
+    width: 450px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+  }
+  
+  .project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s;
+  
+    /* Add hover effect to scale the card slightly */
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  

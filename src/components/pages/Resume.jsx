@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap'; // Import Bootstrap Card and Button components
-import '../css/resume.css'; // Create a CSS file for styling
+import '../css/style.css'; // Create a CSS file for styling
 
 export default function Resume() {
   const resumeURL = 'assets/resume.pdf'; // Replace with the actual path to your resume PDF
